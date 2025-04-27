@@ -13,13 +13,7 @@
                    FontSize="Title"
                    FontAttributes="Bold"/>
 
-                <!--<toolkit:MediaElement x:Name="mediaElement"
-                      ShouldAutoPlay="True"
-                      ShouldShowPlaybackControls="True"
-                      Source="https://www.youtube.com/embed/6IQdMA95zXE"
-                      HeightRequest="500"/>-->
-
-                <WebView Source="https://www.youtube.com/embed/6IQdMA95zXE"
+                <WebView Source="{Binding Course.CourseVideoLink}"
                          HeightRequest="500"/>
 
                 <Grid HeightRequest="35">
